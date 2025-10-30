@@ -1,0 +1,49 @@
+# Compiled Java classes
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Build directories
+/bin/
+/out/
+/target/
+/build/
+
+# IDE files
+/.idea/
+.vscode/
+*.iml
+*.classpath
+*.project
+/.settings/
+
+# Maven/Gradle
+/.mvn/
+/.gradle/
+/build/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+# editor swap files
+*.swp
+
+# Key stores, env files
+*.keystore
+*.jks
+*.env
+
+# Ignore IntelliJ run configurations and local history
+/.idea/
+/.idea/**/workspace.xml
+/.idea/**/tasks.xml
