@@ -1,6 +1,6 @@
 # UDEA_TP_Envios
 
-Proyecto Operador Logístico (Swing + JTable) con separación por carpetas: `entidades`, `servicios`, `datos`, `iconos`.
+Proyecto Operador Logístico en Java con Swing + JTable aplicando separación por carpetas: `entidades`, `servicios`, `datos`, `iconos`, `estilos`.
 
 ## Compilar/Ejecutar
 ```bash
@@ -48,6 +48,17 @@ El sistema se diseñó aplicando principios de Programación Orientada a Objetos
 - Para agregar una nueva política tarifaria: implementar `servicios.CalculadoraTarifa` y pasar la nueva implementación a `EnvioService`.
 - Para cambiar persistencia: crear una nueva implementación de `datos.EnvioRepository` y usarla al instanciar `EnvioService`.
 
+
+## Imágenes de muestra:
+
+![Figura 1 — Interfaz principal](src/docs/ss-1.png)
+_Figura 1. Interfaz principal de FrmEnvios._
+![Figura 2 — Interfaz principal](src/docs/ss-2.png)
+_Figura 2. Interfaz principal con datos._
+![Figura 3 — Validaciones de Datos](src/docs/ss-3.png)
+_Figura 3. Validaciones de Datos._
+
 ---
 
 *Iconos tomados de Flaticon.com*
+
